@@ -1,0 +1,100 @@
+/*头部*/
+header{width: 100%;height:1.2rem;line-height:1.2rem;border-bottom: 1px solid #ccc;position:fixed;top: 0;background-color: white;z-index: 15;}
+.logo img{width: 38%;height: 50%;vertical-align: middle;}
+header h2{text-align: center;font-size: 30px;line-height: 1.2rem;font-weight: 400;}
+.icon-menu,.icon-caidanyingyong1{position: absolute;right: 20px;top:0px;z-index: 2;font-size: 4em;}
+.icon-return{position: absolute;left: 20px;top:0px;z-index: 2;font-size: 4em;}
+/*导航栏*/
+.navbar{position:fixed;z-index:20;height:100%;top:1.2rem;overflow:hidden;display:none;width:100%;max-width:768px;margin:0 auto;}
+.navbar ul{height:100%;padding-top:.3rem;overflow-x:hidden;overflow-y: auto;width:4rem;position:relative;z-index:2;float:right;background-color: #d95447;}
+.navbar ul li{border-bottom:1px solid #CCCCCC;}
+.navbar ul li a{display:block;padding-left:.4rem;font-size:0.28rem;color:#fff;height:1rem;line-height:1rem;opacity:0;transform: translateX(-100%); transition: all 0.4s ease 0s;transition-delay: 160ms;font-size: 1.5em;}
+.navbar ul li:first-child{border-top:none;}
+.navbar ul.show li a{ opacity:1;transform: translateX(0);}
+.floatmask{width:100%;height:100%;background:#000;opacity:0.3;position:absolute;top:0;z-index:1;display:none;overflow:hidden;transition:all 0.5s;max-width:768px;margin:0 auto;}
+
+/*轮播图 */
+section{overflow: auto;padding:1.2rem 0 ;}
+.lbt{ width:100%;height:2.8rem;position:relative;overflow: hidden;max-width:768px;margin-bottom: 5%;}
+.lbt #list{padding: 0;margin:0;list-style: none;width:300%;height:2.8rem;position:absolute;}
+.lbt #list li{width:33.4%;float:left;}
+.lbt #list li img{width:100%;height:auto;}
+.lbt ol{position:absolute;bottom:5px;right:45%;z-index:10;list-style:none;}
+.lbt ol li{width:8px;height:8px;border-radius: 50%;background-color: #ccc;float:left;margin-left: 10px;cursor:pointer;opacity:0.99;}
+.lbt ol li.current{background-color:#d95447;}
+
+/* 首页产品 */
+.subnav{overflow: auto;margin-bottom: 50px;}
+.subnav1{width: 100%;text-align: center;}
+.subnav1 img{height:auto;width:50%;}
+.subnav1 .title{text-align: center;}
+.subnav1 .title h2{font-size: 25px;font-weight: bold;}
+.subnav1 .title h5{font-size: 15px;font-weight: bold;line-height: 30px;}
+.subnav1 a{display: inline-block;margin-top: 15px;width: 100px;height:0.6rem;background-color: #d95447;border-radius: 10px;line-height: 0.6rem;font-size:16px;color: white;-webkit-border-radius: 10px;}
+
+/*新闻资讯*/
+.news{width: 100%;overflow: hidden;margin-bottom: 50px;}
+.news h3{font-size: 25px;font-weight: bold;text-align: center;line-height: 35px;margin-bottom: 30px;}
+.news ul li  {width:550px;height:100px;margin: 15px 10px;}
+.news ul li time {width:100px;height:100px;float:left;background:#d95447;text-align: center;font-size: 16px;padding-top:12px;box-sizing: border-box;color:#fff;}
+.date {font-size: 40px;padding:10px;}
+.news ul li div {width:430px;height:100px;float:right;background:#f7f7f7;padding:5px;box-sizing: border-box;}
+.news ul li div h4{color: #666666;font-weight: bold;line-height: 25px;font-size: 16px;}
+.news ul li div p{color: #666666;line-height: 20px;font-size: 14px;}
+
+/*企业简介*/
+
+.company {width: 100%;overflow: hidden;margin-bottom: 30px;}
+.company_jj {background:#f7f7f7;overflow-x:hidden;margin-top: 8px;text-align: center;}
+.company h3 {font-size: 25px;font-weight: bold;text-align: center;line-height: 35px;margin-bottom: 30px;}
+.company_jj h4{font-size: 20px;font-weight: bold;text-align: center;line-height: 35px;}
+.company_jj p {text-indent: 2em;padding:10px;font-size: 14px;}
+.company_jj a{display:block;width:74px;height:27px;border-radius: 5px;font-size: 14px;line-height: 27px;text-align: center;border:1px solid #ccc;margin: 0 auto;}
+.company_jj img {width:98%;padding-top: 30px;display:block;margin:0 auto;height: 120px;}
+
+/*底部*/
+footer{position: fixed;bottom: 0;height: 1.2rem;width: 100%;z-index: 15;}
+.footMenu{background:#181818;font-size:.4rem;color:#fff;overflow:hidden;}
+.footMenu li{float:left;width:25%;border-right:1px solid #494949;text-align:center;position: relative;}
+.footMenu li a{display:block;height:1.2rem;font-size: 18px;}
+.footMenu li a i{font-size: 25px;position: absolute;top:5px;left: 35%;color: #CCCCCC;}
+.footMenu li span{display:block;color:#fff;margin-top: 32px;text-align: center;}
+
+/*联系我们*/
+.main{width: 100%;margin: .8rem auto;}
+.main p{font-size: 18px;margin:0 50px;line-height: 35px;font-weight: bold;color: #555555;}
+
+/*产品列表*/
+.newsList{width: 100%;overflow: hidden;}
+.newlist1{width: 100%;display:inline-block;padding-bottom: 15px;border-bottom: 1px solid #666666;position: relative;}
+.newlist1 img{width: 35%;height: 35%;margin-right:20px;}
+.newlist1 .title{padding: 20px 0 0 0; color: #333;}
+.newlist1 .title h2{font-size: 18px;font-weight: bold;}
+.newlist1 .title h6{font-size: 10px;font-weight: bold;margin-top: 15px;}
+.title .lj{display: inline-block;width: 80px;height:0.5rem;background-color: #d95447;border-radius: 12px;
+line-height: 0.5rem;font-size:16px;color: white;-webkit-border-radius: 10px;text-align: center;position: absolute;right: 10%;bottom: 15px;}
+
+/*分页*/
+.page{text-align:center;margin-bottom: 20px;}
+.page li{display: inline-block;padding: 0.5rem 0.5rem 0 0.5rem;font-size:0.28rem}
+
+/*工程案例*/
+
+/*荣誉资质*/
+.ryu{width: 100%;overflow: hidden;}
+.ryu li{width: 100%;text-align: center;}
+.ryu li img{width:70%;height: 80%;margin-bottom: 20px;}
+.ryu li h3{font-size: 25px;color: #333;font-weight: 400;margin-bottom: 30px;}
+
+/*新闻中心*/
+
+/* 新闻详细样式  ——内页 */
+.articleBox1 .title{text-align:center;font-size:20px;color:#000;margin-bottom:10px;font-weight:normal;margin-top: 20px;}
+.articleBox1 .p1{margin-bottom:20px;text-align:center;color:#333;}
+.detailLeft  .p1,.picShow .p1{border-bottom:1px dotted #333333;}
+.articleBox1 .p1 span{margin-right:15px;}
+.fontsizebox{padding: 40px;font-size:13px;color:#424242;}
+.fontsizebox img{min-width: 300px;max-width: 600px;height:auto;display:block;margin:10px auto;border:1px solid #CCCCCC;padding:4px;}
+.fontsizebox p {text-indent: 2em;font-size:16px;line-height:35px;margin:20px 0;}
+.detail_fenx{font-size:14px;padding-top:10px;overflow:hidden;margin-bottom:20px;border-bottom:1px solid #333333;border-top:1px solid #333333;padding-bottom: 10px;}
+.detail_fenx div{width:45%;white-space:nowrap;overflow:hidden;text-overflow: ellipsis;margin-left: 10px;}

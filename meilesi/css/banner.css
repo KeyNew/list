@@ -1,0 +1,32 @@
+html{font-size:100%;-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%;overflow-x:hidden;}
+body,div,ul,li,ol,h1,h2,h3,h4,h5,h6,input,textarea,select,p,dl,dt,dd,a,img,button,form,table,th,tr,td,tbody,article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{margin:0;padding:0;-webkit-tap-highlight-color:transparent;box-sizing: border-box;}
+article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block;}
+fieldset,img{border:0;vertical-align:top; }
+ol,ul,li{list-style-type:none;}
+table{border-collapse:collapse;border-spacing:0;}
+h1, h2, h3, h4, h5, h6 {font-weight:normal;font-size:100%;}
+em,i,b{font-style:normal;}
+b{font-weight: normal;}
+input,textarea{border:none;resize:none;outline:none;-webkit-appearance:none;}
+input[type="button"], input[type="submit"], input[type="reset"] { -webkit-appearance:none; font-family:'Microsoft Yahei',Arial;color:#555;font-size:.22rem;}
+a{color:#333;text-decoration:none;outline:none;blr:expression(this.onFocus=this.blur());}
+a:visited { color:#333; text-decoration: none;} 
+a:hover, a:active, a:focus { color:#333;text-decoration: none;} 
+*{box-sizing:border-box;}
+
+/*公共*/
+body { font-family:'Microsoft Yahei',Arial;color:#333;font-size:.22rem;background:#fff;}
+img{max-width:100%;height:auto;width:auto\9;-ms-interpolation-mode:blicubic;}
+.clearfix:after {clear:both;content:"";display:block;height:0;overflow:hidden;visibility:hidden; }
+.clearfix {zoom:1}
+.fl {float:left;}
+.fr {float:right;}
+.eps {white-space:nowrap;overflow:hidden;text-overflow: ellipsis;}
+.wrapper{width:100%;max-width:768px;min-width:320px;margin:0 auto;position:relative;overflow:hidden;}
+
+.icon {
+   width: 3em; height: 3em;
+   vertical-align: -0.15em;
+   fill: currentColor;
+   overflow: hidden;
+}
